@@ -1,0 +1,85 @@
+*{
+    font-family: "Source Code Pro", monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #743706;
+    background: #ffdf77;
+}
+
+button {
+    cursor: pointer;
+    margin: 0.15vh;
+    border: 0;
+}
+
+footer {
+    bottom: 1vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#acm-button {
+    width: 14vh;
+    height: 6vh;
+    margin: 1vh;
+    border-radius: 10px;
+    background-color: #743706;
+    color: #ffdf77;
+}
+
+#acm-button:hover {
+    background-color: #995b28;
+}
+
+#acm-button:active {
+    opacity: 75%;
+}
+
+#refresh-button {
+    width: 14vh;
+    height: 4vh;
+    margin: 1vh;
+    border-radius: 10px;
+    background-color: #743706;
+    color: #ffdf77;
+}
+
+#refresh-button:hover {
+    background-color: #995b28;
+}
+
+#refresh-button:active {
+    opacity: 75%;
+}
+
+#bubble-jar {
+    width: 45vh;
+    text-align: center;
+}
+
+.bubble-button {
+    font-size:1.5vh;
+    border-radius: 0.4vh;
+    width: 5vh;
+    height: 3vh;
+    background: #bd7032;
+    color: #bd7032;
+    user-select: none;
+
+}
+
+.bubble-button:hover {
+    background: #db8239;
+    color: #db8239;
+}
+
+#controls {
+    text-align:center;
+}
