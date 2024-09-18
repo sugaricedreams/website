@@ -2,27 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>pop!</title>
 
         <link rel="stylesheet" href="index.css">
     </head>
 
     <body>
+        <script src="script.js"></script>
+
         <h1>pop pop pop!</h1>
         <hr width="100%"; color = "#743706";>
         <div class="header">
             <p id="counter">pops: 0</p>
         </div>
 
-        <div id="bubble-jar">
-            <button>pawp</button>
-        </div>
+        <div id="bubble-jar"></div>
 
         <p id="controls">press space to pop a random bubble<br>press enter to refresh page</p>
     
+        <button id="refresh-button" onclick="window.location.reload()">refresh</button>
+
         <div class="footer">
-            <button id="refresh-button" onclick="window.location.reload()">refresh</button>
 
             <a href="https://uah.acm.org/">
                 <button id="acm-button">back to UAH ACM</button>
