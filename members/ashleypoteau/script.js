@@ -1,4 +1,4 @@
-const TOTAL_BUBBLES = 8;
+const TOTAL_BUBBLES = 88;
 let bubbleNums = [];
 
 function makeButtons(n) {
